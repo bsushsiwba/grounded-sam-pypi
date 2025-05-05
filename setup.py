@@ -25,8 +25,8 @@ setuptools.setup(
     install_requires=[
         "torch==2.5.1",
         "autodistill",
-        "numpy>=1.20.0",
-        "opencv-python>=4.6.0",
+        "numpy==1.20.0",
+        "opencv-python==4.6.0",
         "supervision",
         "roboflow",
         "autodistill_florence_2",
