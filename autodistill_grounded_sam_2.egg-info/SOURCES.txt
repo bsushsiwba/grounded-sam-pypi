@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+autodistill_grounded_sam_2/__init__.py
+autodistill_grounded_sam_2/grounded_sam_2.py
+autodistill_grounded_sam_2/helpers.py
+autodistill_grounded_sam_2.egg-info/PKG-INFO
+autodistill_grounded_sam_2.egg-info/SOURCES.txt
+autodistill_grounded_sam_2.egg-info/dependency_links.txt
+autodistill_grounded_sam_2.egg-info/requires.txt
+autodistill_grounded_sam_2.egg-info/top_level.txt
+test/test_hello.py
