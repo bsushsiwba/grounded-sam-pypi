@@ -23,6 +23,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/autodistill/autodistill-grounded-sam-2",
     install_requires=[
+        "packaging",
         "torch==2.5.1",
         "autodistill",
         "numpy>=1.20.0",
