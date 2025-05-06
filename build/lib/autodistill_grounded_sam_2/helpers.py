@@ -30,7 +30,7 @@ def load_SAM():
             [
                 "git",
                 "clone",
-                "https://github.com/bsushsiwba/sam2.git",
+                "https://github.com/bsushsiwba/segment-anything-2.git",
             ]
         )
 
