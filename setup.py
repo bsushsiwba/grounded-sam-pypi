@@ -31,7 +31,9 @@ setuptools.setup(
         "roboflow",
         "autodistill_florence_2",
         "transformers==4.45.2",
-        "scikit-learn"
+        "scikit-learn",
+        "rembg",
+        "onnxruntime",
     ],
     packages=find_packages(exclude=("tests",)),
     extras_require={
