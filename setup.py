@@ -31,7 +31,8 @@ setuptools.setup(
         "supervision",
         "roboflow",
         "autodistill_florence_2",
-        "transformers==4.45.2"
+        "transformers==4.45.2",
+        "scikit-learn"
     ],
     packages=find_packages(exclude=("tests",)),
     extras_require={
