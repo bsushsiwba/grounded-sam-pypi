@@ -5,6 +5,12 @@ import sys
 import re
 import os
 
+try:
+    import torch
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "torch==2.5.1"])
+
+
 with open("./autodistill_grounded_sam_2/__init__.py", 'r') as f:
     content = f.read()
     # from https://www.py4u.net/discuss/139845
