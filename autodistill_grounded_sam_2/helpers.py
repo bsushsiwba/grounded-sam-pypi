@@ -25,7 +25,7 @@ def load_SAM():
 
     os.chdir(SAM_CACHE_DIR)
 
-    if not os.path.isdir("~/.cache/autodistill/segment_anything_2/segment-anything-2"):
+    if not os.path.exists(os.path.expanduser("~/.cache/autodistill/segment_anything_2/segment-anything-2")):
         subprocess.run(
             [
                 "git",
